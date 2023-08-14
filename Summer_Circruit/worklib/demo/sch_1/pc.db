@@ -1,0 +1,64 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.6-S115 (v16-6-112JX) 1/23/2019 on Mon Jul 10 10:24:54 2023
+#ISCELL
+  standard b#20size#20page *
+  *
+#CELL
+  demo_lib 89c52 *
+  page1_i1
+#CELL
+  demo_lib 1n4377 *
+  page1_i13
+#CELL
+  demo_lib dip2 *
+  page1_i14
+#CELL
+  demo_lib led *
+  page1_i18
+#CELL
+  demo_lib c *
+  page1_i20
+#CELL
+  demo_lib c *
+  page1_i21
+#CELL
+  demo_lib lm7805 *
+  page1_i22
+#CELL
+  demo_lib resistor *
+  page1_i23
+#CELL
+  demo_lib switch *
+  page1_i24
+#CELL
+  demo_lib c *
+  page1_i25
+#CELL
+  demo_lib c *
+  page1_i26
+#CELL
+  demo_lib crystal *
+  page1_i27
+#CELL
+  demo_lib cp *
+  page1_i28
+#CELL
+  demo_lib resistor *
+  page1_i29
+#CELL
+  demo_lib resetkey *
+  page1_i31
+#CELL
+  demo_lib dip4 *
+  page1_i41
+#CELL
+  demo_lib oled *
+  page1_i42
+#CELL
+  demo_lib adxl345 *
+  page1_i43
+#CELL
+  demo_lib resistor *
+  page1_i44
+#CELL
+  demo_lib dip16 *
+  page1_i45

@@ -1,0 +1,17 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DRILL LEGEND                                                     )
+(                                                                     )
+(    Drawing          : board.brd                                     )
+(    Software Version : 16.6-2015S115                                 )
+(    Date/Time        : Mon Jul 10 17:30:05 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Begin processing of drill legend template file 'D:/Cadence/SPB_16.6/share/pcb/text/nclegend/default-mil.dlt' ...
+End of drill legend template file processing.
+
+Begin processing drill holes.
+No errors detected in processing holes.
+End processing drill holes.

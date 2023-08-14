@@ -1,0 +1,204 @@
+(Cell	led
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/05/23,19:36:43)
+
+			(User	xu)
+
+			(Path	demo_lib.led)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/05/23,19:43:07)
+
+			(User	xu)
+
+			(Path	demo_lib.led)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/05/23,19:36:43)
+
+					(User	xu)
+
+					(Path	demo_lib.led)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009fd056d1)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/05/23,19:36:43)
+
+							(User	xu)
+
+							(Path	demo_lib.led)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d1903b4)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000bfa9a15e)
+
+			(Primitives	1
+
+				(Primitive	LED
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/05/23,19:36:43)
+
+							(User	xu)
+
+							(Path	demo_lib.led)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LED
+
+							(PackType	LED)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	LED)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ea803d6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cd003ad)
+
+)
+

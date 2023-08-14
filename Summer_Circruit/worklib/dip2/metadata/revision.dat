@@ -1,0 +1,204 @@
+(Cell	dip2
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/06/23,20:15:46)
+
+			(User	xu)
+
+			(Path	demo_lib.dip2)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/06/23,20:18:25)
+
+			(User	xu)
+
+			(Path	demo_lib.dip2)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/06/23,20:15:46)
+
+					(User	xu)
+
+					(Path	demo_lib.dip2)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001b2e51f0)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,20:15:46)
+
+							(User	xu)
+
+							(Path	demo_lib.dip2)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c8e03a7)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000d76ea28c)
+
+			(Primitives	1
+
+				(Primitive	DIP2
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,20:15:46)
+
+							(User	xu)
+
+							(Path	demo_lib.dip2)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DIP2
+
+							(PackType	DIP2)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	DIP2)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e7703e0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bcb037d)
+
+)
+

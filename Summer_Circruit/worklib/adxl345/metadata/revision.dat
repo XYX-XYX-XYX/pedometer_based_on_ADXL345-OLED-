@@ -1,0 +1,204 @@
+(Cell	adxl345
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/06/23,16:36:18)
+
+			(User	xu)
+
+			(Path	demo_lib.adxl345)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/06/23,16:41:11)
+
+			(User	xu)
+
+			(Path	demo_lib.adxl345)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/06/23,16:36:18)
+
+					(User	xu)
+
+					(Path	demo_lib.adxl345)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001ea5f4e1)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,16:36:18)
+
+							(User	xu)
+
+							(Path	demo_lib.adxl345)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d9903dd)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000055f61627)
+
+			(Primitives	1
+
+				(Primitive	ADXL345
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,16:36:18)
+
+							(User	xu)
+
+							(Path	demo_lib.adxl345)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ADXL345
+
+							(PackType	ADXL345)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	ADXL345)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bb6037f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c8d03ac)
+
+)
+

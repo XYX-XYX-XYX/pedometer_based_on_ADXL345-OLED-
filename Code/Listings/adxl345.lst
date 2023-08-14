@@ -1,0 +1,281 @@
+C51 COMPILER V9.60.7.0   ADXL345                                                           07/16/2023 15:16:11 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE ADXL345
+OBJECT MODULE PLACED IN .\Objects\adxl345.obj
+COMPILER INVOKED BY: D:\app\keil\C51\BIN\C51.EXE adxl345.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\
+                    -adxl345.lst) TABS(2) OBJECT(.\Objects\adxl345.obj)
+
+line level    source
+
+   1          #include"adxl345.h"
+*** WARNING C206 IN LINE 231 OF adxl345.h: 'Multiple_Read_ADXL345': missing function-prototype
+   2          #include  <REG52.H>
+   3          #include "intrins.h"
+   4          #include  <math.h>    //Keil library  
+   5          #include  <stdio.h>   //Keil library  
+   6          /**************************************
+   7            延时5微秒(STC90C52RC@12M)
+   8            不同的工作环境,需要调整此函数，注意时钟过快时需要修改
+   9            当改用1T的MCU时,请调整此延时函数
+  10          **************************************/
+  11          
+  12          void Delay5us()
+  13          {
+  14   1        _nop_(); _nop_(); _nop_(); _nop_();
+  15   1        _nop_(); _nop_(); _nop_(); _nop_();
+  16   1        _nop_(); _nop_(); _nop_(); _nop_();
+  17   1      }
+*** ERROR C237 IN LINE 17 OF adxl345.c: 'Delay5us': function already has a body
+  18          
+  19          /**************************************
+  20            延时5毫秒(STC90C52RC@12M)
+  21            不同的工作环境,需要调整此函数
+  22            当改用1T的MCU时,请调整此延时函数
+  23          **************************************/
+  24          void Delay5ms()
+  25          {
+  26   1        WORD n = 560;
+  27   1      
+  28   1        while (n--);
+  29   1      }
+*** ERROR C237 IN LINE 29 OF adxl345.c: 'Delay5ms': function already has a body
+  30          /*******************************/
+  31          void delay(unsigned int k)      //????ms
+  32          {
+  33   1        unsigned int i, j;
+  34   1        for (i = 0; i < k; i++)
+  35   1        {
+  36   2          for (j = 0; j < 121; j++)
+  37   2          {
+  38   3            ;
+  39   3          }
+  40   2        }
+  41   1      }
+*** ERROR C237 IN LINE 41 OF adxl345.c: '_delay': function already has a body
+  42          /**************************************
+  43            起始信号
+  44          **************************************/
+  45          void ADXL345_Start()
+  46          {
+  47   1        SDA = 1;                    //拉高数据线
+  48   1        SCL = 1;                    //拉高时钟线
+  49   1        Delay5us();                 //延时
+  50   1        SDA = 0;                    //产生下降沿
+C51 COMPILER V9.60.7.0   ADXL345                                                           07/16/2023 15:16:11 PAGE 2   
+
+  51   1        Delay5us();                 //延时
+  52   1        SCL = 0;                    //拉低时钟线
+  53   1      }
+*** ERROR C237 IN LINE 53 OF adxl345.c: 'ADXL345_Start': function already has a body
+  54          
+  55          /**************************************
+  56            停止信号
+  57          **************************************/
+  58          void ADXL345_Stop()
+  59          {
+  60   1        SDA = 0;                    //拉低数据线
+  61   1        SCL = 1;                    //拉高时钟线
+  62   1        Delay5us();                 //延时
+  63   1        SDA = 1;                    //产生上升沿
+  64   1        Delay5us();                 //延时
+  65   1      }
+*** ERROR C237 IN LINE 65 OF adxl345.c: 'ADXL345_Stop': function already has a body
+  66          /**************************************
+  67            发送应答信号
+  68            入口参数:ack (0:ACK 1:NAK)
+  69          **************************************/
+  70          void ADXL345_SendACK(bit ack)
+  71          {
+  72   1        SDA = ack;                  //写应答信号
+  73   1        SCL = 1;                    //拉高时钟线
+  74   1        Delay5us();                 //延时
+  75   1        SCL = 0;                    //拉低时钟线
+  76   1        Delay5us();                 //延时
+  77   1      }
+*** ERROR C237 IN LINE 77 OF adxl345.c: 'ADXL345_SendACK': function already has a body
+  78          
+  79          /**************************************
+  80            接收应答信号
+  81          **************************************/
+  82          bit ADXL345_RecvACK()
+  83          {
+  84   1        SCL = 1;                    //拉高时钟线
+  85   1        Delay5us();                 //延时
+  86   1        CY = SDA;                   //读应答信号
+  87   1        SCL = 0;                    //拉低时钟线
+  88   1        Delay5us();                 //延时
+  89   1      
+  90   1        return CY;
+  91   1      }
+*** ERROR C237 IN LINE 91 OF adxl345.c: 'ADXL345_RecvACK': function already has a body
+  92          
+  93          /**************************************
+  94            向IIC总线发送一个字节数据
+  95          **************************************/
+  96          void ADXL345_SendByte(BYTE dat)
+  97          {
+  98   1        BYTE i;
+  99   1      
+ 100   1        for (i = 0; i < 8; i++)     //8位计数器
+ 101   1        {
+ 102   2          dat <<= 1;              //移出数据的最高位
+ 103   2          SDA = CY;               //送数据口
+ 104   2          SCL = 1;                //拉高时钟线
+ 105   2          Delay5us();             //延时
+ 106   2          SCL = 0;                //拉低时钟线
+ 107   2          Delay5us();             //延时
+ 108   2        }
+C51 COMPILER V9.60.7.0   ADXL345                                                           07/16/2023 15:16:11 PAGE 3   
+
+ 109   1        ADXL345_RecvACK();
+ 110   1      }
+*** ERROR C237 IN LINE 110 OF adxl345.c: '_ADXL345_SendByte': function already has a body
+ 111          
+ 112          /**************************************
+ 113            从IIC总线接收一个字节数据
+ 114          **************************************/
+ 115          BYTE ADXL345_RecvByte()
+ 116          {
+ 117   1        BYTE i;
+ 118   1        BYTE dat = 0;
+ 119   1      
+ 120   1        SDA = 1;                    //使能内部上拉,准备读取数据,
+ 121   1        for (i = 0; i < 8; i++)     //8位计数器
+ 122   1        {
+ 123   2          dat <<= 1;
+ 124   2          SCL = 1;                //拉高时钟线
+ 125   2          Delay5us();             //延时
+ 126   2          dat |= SDA;             //读数据
+ 127   2          SCL = 0;                //拉低时钟线
+ 128   2          Delay5us();             //延时
+ 129   2        }
+ 130   1        return dat;
+ 131   1      }
+*** ERROR C237 IN LINE 131 OF adxl345.c: 'ADXL345_RecvByte': function already has a body
+ 132          
+ 133          //******单字节写入*******************************************
+ 134          
+ 135          void Single_Write_ADXL345(uint8 REG_Address, uint8 REG_data)
+ 136          {
+ 137   1        ADXL345_Start();                  //起始信号
+ 138   1        ADXL345_SendByte(SlaveAddress);   //发送设备地址+写信号
+ 139   1        ADXL345_SendByte(REG_Address);    //内部寄存器地址，请参考中文pdf22页
+ 140   1        ADXL345_SendByte(REG_data);       //内部寄存器数据，请参考中文pdf22页
+ 141   1        ADXL345_Stop();                   //发送停止信号
+ 142   1      }
+*** ERROR C237 IN LINE 142 OF adxl345.c: '_Single_Write_ADXL345': function already has a body
+ 143          
+ 144          //********单字节读取*****************************************
+ 145          uint8 Single_Read_ADXL345(uint8 REG_Address)
+ 146          { uint8 REG_data;
+ 147   1        ADXL345_Start();                          //起始信号
+ 148   1        ADXL345_SendByte(SlaveAddress);           //发送设备地址+写信号
+ 149   1        ADXL345_SendByte(REG_Address);            //发送存储单元地址，从0开始
+ 150   1        ADXL345_Start();                          //起始信号
+ 151   1        ADXL345_SendByte(SlaveAddress + 1);       //发送设备地址+读信号
+ 152   1        REG_data = ADXL345_RecvByte();            //读出寄存器数据
+ 153   1        ADXL345_SendACK(1);
+ 154   1        ADXL345_Stop();                           //停止信号
+ 155   1        return REG_data;
+ 156   1      }
+*** ERROR C237 IN LINE 156 OF adxl345.c: '_Single_Read_ADXL345': function already has a body
+ 157          //*********************************************************
+ 158          //
+ 159          //连续读出ADXL345内部加速度数据，地址范围0x32~0x37
+ 160          //
+ 161          //*********************************************************
+ 162          void Multiple_read_ADXL345(void)
+ 163          { uint8 i;
+ 164   1        ADXL345_Start();                          //起始信号
+ 165   1        ADXL345_SendByte(SlaveAddress);           //发送设备地址+写信号
+ 166   1        ADXL345_SendByte(0x32);                   //发送存储单元地址，从0x32开始
+C51 COMPILER V9.60.7.0   ADXL345                                                           07/16/2023 15:16:11 PAGE 4   
+
+ 167   1        ADXL345_Start();                          //起始信号
+ 168   1        ADXL345_SendByte(SlaveAddress + 1);       //发送设备地址+读信号
+ 169   1        for (i = 0; i < 6; i++)                  //连续读取6个地址数据，存储中BUF
+ 170   1        {
+ 171   2          BUF[i] = ADXL345_RecvByte();          //BUF[0]存储0x32地址中的数据
+ 172   2          if (i == 5)
+ 173   2          {
+ 174   3            ADXL345_SendACK(1);                //最后一个数据需要回NOACK
+ 175   3          }
+ 176   2          else
+ 177   2          {
+ 178   3            ADXL345_SendACK(0);                //回应ACK
+ 179   3          }
+ 180   2        }
+ 181   1        ADXL345_Stop();                          //停止信号
+ 182   1        Delay5ms();
+ 183   1      }
+*** ERROR C237 IN LINE 183 OF adxl345.c: 'Multiple_read_ADXL345': function already has a body
+ 184          
+ 185          
+ 186          //*****************************************************************
+ 187          
+ 188          //初始化ADXL345，根据需要请参考pdf进行修改************************
+ 189          void Init_ADXL345()
+ 190          {
+ 191   1        Single_Write_ADXL345(0x31, 0x0B);  //测量范围,正负16g，13位模式
+ 192   1        Single_Write_ADXL345(0x2C, 0x08);  //速率设定为12.5 参考pdf13页
+ 193   1        Single_Write_ADXL345(0x2D, 0x08);  //选择电源模式   参考pdf24页
+ 194   1        Single_Write_ADXL345(0x2E, 0x80);  //使能 DATA_READY 中断
+ 195   1        Single_Write_ADXL345(0x1E, 0x00);  //X 偏移量 根据测试传感器的状态写入pdf29页
+ 196   1        Single_Write_ADXL345(0x1F, 0x00);  //Y 偏移量 根据测试传感器的状态写入pdf29页
+ 197   1        Single_Write_ADXL345(0x20, 0x05);  //Z 偏移量 根据测试传感器的状态写入pdf29页
+ 198   1      }
+*** ERROR C237 IN LINE 198 OF adxl345.c: 'Init_ADXL345': function already has a body
+ 199          //整合xyz轴的数据,正整数，返回 x*x+y*y+z*z  的计算值
+ 200          float ADXL345_xyz()
+ 201          {
+ 202   1        float temp;
+ 203   1        float all = 0.0;
+ 204   1        dis_data = (BUF[1] << 8) + BUF[0]; //合成数据
+ 205   1        if (dis_data < 0)  dis_data = -dis_data;
+ 206   1        temp = (float)dis_data / 10;
+ 207   1        all += temp * temp;
+ 208   1      
+ 209   1        dis_data = (BUF[3] << 8) + BUF[2]; //合成数据
+ 210   1        if (dis_data < 0)  dis_data = -dis_data;
+ 211   1        temp = (float)dis_data / 10;
+ 212   1        all += temp * temp;
+ 213   1      
+ 214   1        dis_data = (BUF[5] << 8) + BUF[4]; //合成数据
+ 215   1        if (dis_data < 0)  dis_data = -dis_data;
+ 216   1        temp = (float)dis_data / 10;
+ 217   1        all += temp * temp;
+ 218   1        return all;
+ 219   1      }
+*** ERROR C237 IN LINE 219 OF adxl345.c: 'ADXL345_xyz': function already has a body
+ 220          
+ 221          //获取2次数据作为当前的获得数据，多次数据取平均值作为判断步数的阈值，与�
+             -��前获得数据比较 ，保存总步数到eeprom
+ 222          void calculate_xyz()
+ 223          {
+ 224   1        float temp;
+C51 COMPILER V9.60.7.0   ADXL345                                                           07/16/2023 15:16:11 PAGE 5   
+
+ 225   1        temp = ADXL345_xyz();
+ 226   1        delay(20);
+ 227   1        Multiple_Read_ADXL345();
+ 228   1        temp = (temp + ADXL345_xyz()) / 2; //两次值取平均
+ 229   1      
+ 230   1      
+ 231   1        average_all_temp += (uint16)(temp / average_all_times);
+ 232   1        average_all_num++;
+ 233   1        if (average_all_num >= average_all_times) {        //达到average_all_times次数  数据的平局作�
+             -�阈值判断
+ 234   2          average_all_num = 0;
+ 235   2          average_all = average_all_temp;
+ 236   2          average_all_temp = 0;
+ 237   2        }
+ 238   1      
+ 239   1        if (temp > average_all + 55) {        //当测量值 比阈值+55大，说明走了一步
+ 240   2          step_all++;
+ 241   2          delay(150);                //延时，避免一步当做多步
+ 242   2        }
+ 243   1      }
+*** ERROR C237 IN LINE 243 OF adxl345.c: 'calculate_xyz': function already has a body
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  15 ERROR(S)

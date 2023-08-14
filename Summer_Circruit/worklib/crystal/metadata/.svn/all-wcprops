@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata
+END
+pinlist.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata/pinlist.txt
+END
+pdv_validation.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata/pdv_validation.txt
+END
+master.tag
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata/master.tag
+END
+revision.dat
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata/revision.dat
+END
+revHistory.log
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata/revHistory.log
+END
+revision.log
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/metadata/revision.log
+END

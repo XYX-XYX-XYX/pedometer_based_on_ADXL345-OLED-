@@ -1,0 +1,53 @@
+\t (00:00:00) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:00:00)     Journal start - Fri Apr 29 12:15:12 2022
+\t (00:00:00)         Host=CAIXI-PC User=caixi Pid=94488 CPUs=4
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) pse_open 
+\i (00:00:16) fillin "pad100cir45d.pad"
+\i (00:00:17) FORM padedit layers  
+\i (00:00:18) FORM padedit grid row default_internal 
+\i (00:00:24) FORM padedit flash_th  
+\i (00:00:24) FORM padedit grid row end_layer 
+\i (00:00:25) FORM padedit grid row default_internal 
+\i (00:00:27) FORM padedit geometry_th Circle 
+\i (00:00:29) FORM padedit width_th 85 
+\i (00:00:32) FORM padedit grid row begin_layer 
+\i (00:00:33) FORM padedit grid row default_internal 
+\i (00:00:33) FORM padedit grid row end_layer 
+\i (00:00:34) FORM padedit grid row default_internal 
+\i (00:00:34) FORM padedit grid row begin_layer 
+\i (00:00:40) FORM padedit flash_th  
+\i (00:00:46) FORM padedit geometry_th Circle 
+\i (00:00:52) FORM padedit width_th 140 
+\i (00:00:53) FORM padedit grid row end_layer 
+\i (00:00:53) FORM padedit grid row default_internal 
+\i (00:00:54) FORM padedit grid row begin_layer 
+\i (00:00:54) FORM padedit grid row default_internal 
+\i (00:00:55) FORM padedit grid row end_layer 
+\i (00:00:56) FORM padedit flash_th  
+\i (00:00:58) FORM padedit width_th 1 
+\i (00:00:59) FORM padedit geometry_th Circle 
+\i (00:01:02) FORM padedit width_th 140 
+\i (00:01:02) FORM padedit grid row default_internal 
+\i (00:01:02) FORM padedit grid row end_layer 
+\i (00:01:03) FORM padedit grid row default_internal 
+\i (00:01:03) FORM padedit grid row begin_layer 
+\i (00:01:04) FORM padedit grid row default_internal 
+\i (00:01:04) FORM padedit grid row end_layer 
+\i (00:01:05) FORM padedit grid row soldermask_top 
+\i (00:01:05) FORM padedit grid row soldermask_bottom 
+\i (00:01:06) FORM padedit grid row end_layer 
+\i (00:01:06) FORM padedit grid row default_internal 
+\i (00:01:07) FORM padedit grid row begin_layer 
+\i (00:01:07) FORM padedit grid row default_internal 
+\i (00:01:07) FORM padedit grid row end_layer 
+\i (00:01:08) FORM padedit grid row default_internal 
+\i (00:01:08) FORM padedit grid row begin_layer 
+\i (00:01:08) FORM padedit grid row end_layer 
+\i (00:01:09) FORM padedit grid row default_internal 
+\i (00:01:09) FORM padedit grid row begin_layer 
+\i (00:01:11) pse_save 
+\i (00:01:11) fillin yes 
+\i (00:01:12) pse_exit
+\t (00:01:12)     Journal end - Fri Apr 29 12:16:24 2022

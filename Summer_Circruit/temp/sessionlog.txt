@@ -1,0 +1,18 @@
+07/10/23  16:47:54		Opening project D:/Cadence/Summer_Circruit/demo.cpm
+07/10/23  16:47:54		cdslib D:/Cadence/Summer_Circruit/cds.lib opened
+07/10/23  16:47:54		Project D:/Cadence/Summer_Circruit/demo.cpm opened
+07/10/23  16:48:32		Loading cell lm7805 from library demo_lib
+07/10/23  16:48:32		Loading view sym_1 of cell lm7805
+07/10/23  16:48:32		Loading view chips of cell lm7805
+07/10/23  16:48:33		Loading view part_table of cell lm7805
+07/10/23  16:48:33		Loading file part.ptf of PTF view part_table of cell lm7805
+07/10/23  16:48:33		Loading view entity of cell lm7805
+07/10/23  16:48:33		Loading cell lm7805 from library demo_lib
+07/10/23  16:48:33		Analyzing view relationships of cell lm7805 in library demo_lib
+07/10/23  16:48:33		Completed loading cell lm7805 from library demo_lib
+07/10/23  16:48:33		Starting validations on cell lm7805 of library demo_lib
+07/10/23  16:48:33		Completed validations on cell lm7805 of library demo_lib
+07/10/23  16:50:34		Starting validations on cell lm7805 of library demo_lib
+07/10/23  16:50:34		Completed validations on cell lm7805 of library demo_lib
+07/10/23  16:50:35		Completed saving cell lm7805 in library demo_lib 
+07/10/23  16:50:37		Project D:/Cadence/Summer_Circruit/demo.cpm is closed.

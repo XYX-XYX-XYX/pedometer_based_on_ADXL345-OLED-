@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : C.dra                                         )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Fri Jul 07 09:58:23 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence/Summer_Circruit/worklib/demo/physical
+    Name      = c.psm
+    User      = xu
+    Machine   = DESKTOP-JLNS6G0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

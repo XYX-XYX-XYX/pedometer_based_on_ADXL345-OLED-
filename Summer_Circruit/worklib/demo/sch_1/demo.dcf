@@ -1,0 +1,1977 @@
+( ConstraintFile "demo"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 32 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CODE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "demo"
+				( attribute "CDS_EXPORT_CONTENTS_MASK" "33330"
+				)
+				( attribute "CDS_EDIT_PNS_STATUS" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( signal "@demo_lib.demo(sch_1):ale"
+				( attribute "CDS_PHYS_NET_NAME" "ALE"
+					( Origin gPackager )
+				)
+				( objectStatus "ALE" )
+			)
+			( signal "@demo_lib.demo(sch_1):ea"
+				( attribute "CDS_PHYS_NET_NAME" "EA"
+					( Origin gPackager )
+				)
+				( objectStatus "EA" )
+			)
+			( signal "@demo_lib.demo(sch_1):gnd"
+				( attribute "PHYS_NET_NAME" "GND"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "GND"
+					( Origin gPackager )
+				)
+				( objectStatus "GND" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.0\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.0"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.0" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.1\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.1"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.1" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.2\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.2"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.2" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.3\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.3"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.3" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.4\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.4"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.4" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.5\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.5"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.5" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.6\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.6"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.6" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p0.7\"
+				( attribute "CDS_PHYS_NET_NAME" "P0.7"
+					( Origin gPackager )
+				)
+				( objectStatus "P0.7" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.0\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.0"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.0" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.1\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.1"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.1" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.2\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.2"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.2" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.3\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.3"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.3" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.4\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.4"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.4" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.5\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.5"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.5" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.6\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.6"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.6" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p1.7\"
+				( attribute "CDS_PHYS_NET_NAME" "P1.7"
+					( Origin gPackager )
+				)
+				( objectStatus "P1.7" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.0\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.0"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.0" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.1\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.1"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.1" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.2\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.2"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.2" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.3\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.3"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.3" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.4\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.4"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.4" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.5\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.5"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.5" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.6\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.6"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.6" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p2.7\"
+				( attribute "CDS_PHYS_NET_NAME" "P2.7"
+					( Origin gPackager )
+				)
+				( objectStatus "P2.7" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.0\"
+				( attribute "PHYS_NET_NAME" "P3.0"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "P3.0"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.0" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.1\"
+				( attribute "PHYS_NET_NAME" "P3.1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "P3.1"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.1" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.2\"
+				( attribute "CDS_PHYS_NET_NAME" "P3.2"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.2" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.3\"
+				( attribute "CDS_PHYS_NET_NAME" "P3.3"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.3" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.4\"
+				( attribute "CDS_PHYS_NET_NAME" "P3.4"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.4" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.5\"
+				( attribute "CDS_PHYS_NET_NAME" "P3.5"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.5" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.6\"
+				( attribute "CDS_PHYS_NET_NAME" "P3.6"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.6" )
+			)
+			( signal "@demo_lib.demo(sch_1):\p3.7\"
+				( attribute "CDS_PHYS_NET_NAME" "P3.7"
+					( Origin gPackager )
+				)
+				( objectStatus "P3.7" )
+			)
+			( signal "@demo_lib.demo(sch_1):psen"
+				( attribute "CDS_PHYS_NET_NAME" "PSEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PSEN" )
+			)
+			( signal "@demo_lib.demo(sch_1):rst"
+				( attribute "CDS_PHYS_NET_NAME" "RST"
+					( Origin gPackager )
+				)
+				( objectStatus "RST" )
+			)
+			( signal "@demo_lib.demo(sch_1):vcc"
+				( attribute "PHYS_NET_NAME" "VCC"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "VCC"
+					( Origin gPackager )
+				)
+				( objectStatus "VCC" )
+			)
+			( signal "@demo_lib.demo(sch_1):xtal1"
+				( attribute "CDS_PHYS_NET_NAME" "XTAL1"
+					( Origin gPackager )
+				)
+				( objectStatus "XTAL1" )
+			)
+			( signal "@demo_lib.demo(sch_1):xtal2"
+				( attribute "CDS_PHYS_NET_NAME" "XTAL2"
+					( Origin gPackager )
+				)
+				( objectStatus "XTAL2" )
+			)
+			( signal "@demo_lib.demo(sch_1):vin"
+				( attribute "CDS_PHYS_NET_NAME" "VIN"
+					( Origin gPackager )
+				)
+				( objectStatus "VIN" )
+			)
+			( signal "@demo_lib.demo(sch_1):unnamed_1_1n4377_i13_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_1N4377_I13_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_1N4377_I13_1" )
+			)
+			( signal "@demo_lib.demo(sch_1):unnamed_1_led_i18_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_LED_I18_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_LED_I18_1" )
+			)
+			( signal "@demo_lib.demo(sch_1):unnamed_1_c_i20_1"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_C_I20_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_C_I20_1" )
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i1"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-250,1000,250,-50"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "STC89C52"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-900,3950)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "89C52"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "89C52-0001,STC89C52"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "89C52-0001,STC89C52"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U14"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U14"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U14" )
+				( pin "\ale/prog*\"
+					( attribute "PN" "30"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.30" )
+				)
+				( pin "\ea*\"
+					( attribute "PN" "31"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.31" )
+				)
+				( pin "gnd"
+					( attribute "PN" "20"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.20" )
+				)
+				( pin "\p0.0/ad0\"
+					( attribute "PN" "39"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.39" )
+				)
+				( pin "\p0.1/ad1\"
+					( attribute "PN" "38"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.38" )
+				)
+				( pin "\p0.2/ad2\"
+					( attribute "PN" "37"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.37" )
+				)
+				( pin "\p0.3/ad3\"
+					( attribute "PN" "36"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.36" )
+				)
+				( pin "\p0.4/ad4\"
+					( attribute "PN" "35"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.35" )
+				)
+				( pin "\p0.5/ad5\"
+					( attribute "PN" "34"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.34" )
+				)
+				( pin "\p0.6/ad6\"
+					( attribute "PN" "33"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.33" )
+				)
+				( pin "\p0.7/ad7\"
+					( attribute "PN" "32"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.32" )
+				)
+				( pin "\p1.0/t2\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.1" )
+				)
+				( pin "\p1.1/t2ex\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.2" )
+				)
+				( pin "\p1.2\"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.3" )
+				)
+				( pin "\p1.3\"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.4" )
+				)
+				( pin "\p1.4\"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.5" )
+				)
+				( pin "\p1.5\"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.6" )
+				)
+				( pin "\p1.6\"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.7" )
+				)
+				( pin "\p1.7\"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.8" )
+				)
+				( pin "\p2.0/a8\"
+					( attribute "PN" "21"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.21" )
+				)
+				( pin "\p2.1/a9\"
+					( attribute "PN" "22"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.22" )
+				)
+				( pin "\p2.2/a10\"
+					( attribute "PN" "23"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.23" )
+				)
+				( pin "\p2.3/a11\"
+					( attribute "PN" "24"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.24" )
+				)
+				( pin "\p2.4/a12\"
+					( attribute "PN" "25"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.25" )
+				)
+				( pin "\p2.5/a13\"
+					( attribute "PN" "26"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.26" )
+				)
+				( pin "\p2.6/a14\"
+					( attribute "PN" "27"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.27" )
+				)
+				( pin "\p2.7/a15\"
+					( attribute "PN" "28"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.28" )
+				)
+				( pin "\p3.0/rxd\"
+					( attribute "PN" "10"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.10" )
+				)
+				( pin "\p3.1/txd\"
+					( attribute "PN" "11"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.11" )
+				)
+				( pin "\p3.2/int0*\"
+					( attribute "PN" "12"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.12" )
+				)
+				( pin "\p3.3/int1*\"
+					( attribute "PN" "13"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.13" )
+				)
+				( pin "\p3.4/t0\"
+					( attribute "PN" "14"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.14" )
+				)
+				( pin "\p3.5/t1\"
+					( attribute "PN" "15"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.15" )
+				)
+				( pin "\p3.6/wr*\"
+					( attribute "PN" "16"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.16" )
+				)
+				( pin "\p3.7/rd*\"
+					( attribute "PN" "17"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.17" )
+				)
+				( pin "\psen*\"
+					( attribute "PN" "29"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.29" )
+				)
+				( pin "rst"
+					( attribute "PN" "9"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.9" )
+				)
+				( pin "vcc"
+					( attribute "PN" "40"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.40" )
+				)
+				( pin "xtal1"
+					( attribute "PN" "19"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.19" )
+				)
+				( pin "xtal2"
+					( attribute "PN" "18"
+						( Origin gPackager )
+					)
+					( objectStatus "U14.18" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i23"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0006"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "300"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4200,2100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RESISTOR"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RESISTOR-0006,300"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "RESISTOR-0006,300"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U3" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U3.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U3.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i22"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-75,100,75,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "LM7805"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2150,2000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "LM7805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "LM7805-0001,LM7805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "LM7805-0001,LM7805"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U13"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U13"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U13" )
+				( pin "gnd"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U13.2" )
+				)
+				( pin "input"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U13.1" )
+				)
+				( pin "output"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U13.3" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i21"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.1UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2550,1750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-0.1UF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "C-0.1UF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U12"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U12"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U12" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U12.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U12.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i20"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "0.33UF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2550,2250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-0.33UF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "C-0.33UF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U11"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U11"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U11" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U11.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U11.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i24"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,100,50,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "SWITCH"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3100,2000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "SWITCH"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SWITCH-0001,SWITCH"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "SWITCH-0001,SWITCH"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U8" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U8.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U8.2" )
+				)
+				( pin "\3\"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U8.3" )
+				)
+				( pin "\4\"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U8.4" )
+				)
+				( pin "\5\"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U8.5" )
+				)
+				( pin "\6\"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U8.6" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i18"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0003"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "LED"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3750,2100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "LED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "LED-0003,LED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "LED-0003,LED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U6" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U6.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U6.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i14"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,75,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "DIP2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4200,2350)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DIP2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "DIP2-0001,DIP2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "DIP2-0001,DIP2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "J2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "J2" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "J2.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "J2.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i13"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1N4377"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3850,2400)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "1N4377"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "1N4377-0001,1N4377"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "1N4377-0001,1N4377"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U5" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U5.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i25"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "30PF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4300,3550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-30PF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "C-30PF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U1" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U1.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i26"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "30PF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4300,3000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "C"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "C-30PF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "C-30PF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U2" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U2.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U2.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i27"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "50,100,225,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0002"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "11.0592MHZ"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3950,3100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CRYSTAL"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CRYSTAL-0002,11.0592MHZ"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "CRYSTAL-0002,11.0592MHZ"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "X1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "X1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "X1" )
+				( pin "a1"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "X1.1" )
+				)
+				( pin "a2"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "X1.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i28"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,0,50,-50"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "08010022"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF-100V"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2550,3600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CP-08010022,10UF-100V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "CP-08010022,10UF-100V"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "CP1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "CP1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "CP1" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "CP1.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "CP1.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i29"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "1K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2550,2850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RESISTOR"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RESISTOR-0001,1K"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "RESISTOR-0001,1K"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U10"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U10"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U10" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U10.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U10.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i31"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "200,50,450,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "16100018"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "RESETKEY-DIP"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3300,3200)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RESETKEY"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RESETKEY-16100018,RESETKEY-DIP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "RESETKEY-16100018,RESETKEY-DIP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "S1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "S1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "S1" )
+				( pin "a1"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "S1.1" )
+				)
+				( pin "a2"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "S1.2" )
+				)
+				( pin "b1"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "S1.3" )
+				)
+				( pin "b2"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "S1.4" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i41"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,150,0,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4750,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DIP4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "DIP4-0001,4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "DIP4-0001,4"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "J1" )
+				( pin "\5v\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.1" )
+				)
+				( pin "gnd"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.4" )
+				)
+				( pin "rxd"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.2" )
+				)
+				( pin "txd"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.3" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i42"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "0,150,400,-200"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "7"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "OLED"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-450,2850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "OLED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "OLED-0001,OLED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "OLED-0001,OLED"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U15"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U15"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U15" )
+				( pin "cs"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.7" )
+				)
+				( pin "dc"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.6" )
+				)
+				( pin "gnd"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.1" )
+				)
+				( pin "res"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.5" )
+				)
+				( pin "scx"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.3" )
+				)
+				( pin "sda"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.4" )
+				)
+				( pin "vdd"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U15.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i43"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,300,100,0"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0001"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "ADXL345"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-450,2000)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ADXL345"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ADXL345-0001,ADXL345"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "ADXL345-0001,ADXL345"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U16"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U16"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U16" )
+				( pin "\3v3\"
+					( attribute "PN" "9"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.9" )
+				)
+				( pin "\5v\"
+					( attribute "PN" "10"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.10" )
+				)
+				( pin "cs"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.6" )
+				)
+				( pin "gnd"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.8" )
+				)
+				( pin "in1"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.5" )
+				)
+				( pin "in2"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.4" )
+				)
+				( pin "scl"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.1" )
+				)
+				( pin "sda"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.2" )
+				)
+				( pin "sdo"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.3" )
+				)
+				( pin "vs"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U16.7" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i44"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,100,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "CODE" "0002"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-100,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RESISTOR"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RESISTOR-0002,4.7K"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "RESISTOR-0002,4.7K"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U17"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U17"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U17" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U17.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U17.2" )
+				)
+			)
+			( gate "@demo_lib.demo(sch_1):page1_i45"
+				( attribute "CDS_LIB" "demo_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-100,800,100,-100"
+					( Origin gPackager )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "DIP16"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(1500,3750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "DIP16"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "DIP16-DIP16"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PHYS_PART_NAME" "DIP16-DIP16"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U18"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U18"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U18" )
+				( pin "\1\"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.1" )
+				)
+				( pin "\2\"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.2" )
+				)
+				( pin "\3\"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.3" )
+				)
+				( pin "\4\"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.4" )
+				)
+				( pin "\5\"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.5" )
+				)
+				( pin "\6\"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.6" )
+				)
+				( pin "\7\"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.7" )
+				)
+				( pin "\8\"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.8" )
+				)
+				( pin "\9\"
+					( attribute "PN" "9"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.9" )
+				)
+				( pin "\10\"
+					( attribute "PN" "10"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.10" )
+				)
+				( pin "\11\"
+					( attribute "PN" "11"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.11" )
+				)
+				( pin "\12\"
+					( attribute "PN" "12"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.12" )
+				)
+				( pin "\13\"
+					( attribute "PN" "13"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.13" )
+				)
+				( pin "\14\"
+					( attribute "PN" "14"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.14" )
+				)
+				( pin "\15\"
+					( attribute "PN" "15"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.15" )
+				)
+				( pin "\16\"
+					( attribute "PN" "16"
+						( Origin gPackager )
+					)
+					( objectStatus "U18.16" )
+				)
+			)
+		)
+	)
+)

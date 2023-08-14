@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BUZZER'
+
+{========================================================================================}
+:CODE       | VALUE(OPT)         = JEDEC_TYPE | DESCRIPTION                                 | CHECKLIST | MANUFACTORY | MANU_PART_NO ;
+{========================================================================================}
+ '43010002' | 'Buzzer-HYT-1205'(!) = 'BEEP-300' | '蜂鸣器-直插-9.5*12mm-2pin-7.6mm孔距-4~7V工作' | ''        | 'HYDZ华宇'     | 'HYT-1205' 
+
+END_PART
+
+END.
+

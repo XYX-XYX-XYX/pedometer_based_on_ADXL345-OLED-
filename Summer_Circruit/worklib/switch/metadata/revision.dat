@@ -1,0 +1,204 @@
+(Cell	switch
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/05/23,21:49:30)
+
+			(User	xu)
+
+			(Path	demo_lib.switch)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/05/23,21:53:50)
+
+			(User	xu)
+
+			(Path	demo_lib.switch)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/05/23,21:49:30)
+
+					(User	xu)
+
+					(Path	demo_lib.switch)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000012629998)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/05/23,21:49:30)
+
+							(User	xu)
+
+							(Path	demo_lib.switch)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a2d032f)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000056e85d76)
+
+			(Primitives	1
+
+				(Primitive	SWITCH
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/05/23,21:49:30)
+
+							(User	xu)
+
+							(Path	demo_lib.switch)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SWITCH
+
+							(PackType	SWITCH)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	SWITCH-DIP)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001a6d034b)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c5a03a6)
+
+)
+

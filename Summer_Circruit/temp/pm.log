@@ -1,0 +1,19 @@
+Log File Report from Page Management Commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Current Design             :   DEMO
+Current Page List          :   1
+Current Total Pages        :   1
+Current Active Page        :   1
+
+Command:   Page Insert
+
+   # Pages to Insert       :   1
+   Insert Location         :   1
+   Save Pages              :   Yes
+
+ERROR(SPCOCN-2151): Page Insert cannot continue until the following modified pages are saved: 1
+
+
+Page Insert Processing Terminated. 
+

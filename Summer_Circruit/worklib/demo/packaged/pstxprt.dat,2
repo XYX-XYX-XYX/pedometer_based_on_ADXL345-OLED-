@@ -1,0 +1,442 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 09-Jul-2023 AT 12:26:34 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DEMO';
+ POST_TIME='09-Jul-2023 AT 12:26:34';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ CP1 'CP-08010022,10UF-100V':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I28@DEMO_LIB.CP(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i28@demo_lib.cp(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i28@demo_lib.cp(chips)',
+ PATH='I28',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='08010022',
+ PHYS_PAGE='1',
+ XY='(-2550,3600)',
+ ROT='0',
+ VER='1',
+ VALUE='10UF-100V',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='CP-08010022,10UF-100V',
+ PRIM_FILE='./worklib/cp/chips/chips.prt';
+
+PART_NAME
+ J1 'DIP4-0001,4':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I41@DEMO_LIB.DIP4(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i41@demo_lib.dip4(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i41@demo_lib.dip4(chips)',
+ PATH='I41',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-4750,4450)',
+ ROT='2',
+ VER='1',
+ VALUE='4',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='DIP4-0001,4',
+ PRIM_FILE='./worklib/dip4/chips/chips.prt';
+
+PART_NAME
+ J2 'DIP2-0001,DIP2':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I14@DEMO_LIB.DIP2(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i14@demo_lib.dip2(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i14@demo_lib.dip2(chips)',
+ PATH='I14',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-4200,2350)',
+ ROT='2',
+ VER='1',
+ VALUE='DIP2',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='DIP2-0001,DIP2',
+ PRIM_FILE='./worklib/dip2/chips/chips.prt';
+
+PART_NAME
+ S1 'RESETKEY-16100018,RESETKEY-DIP':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I31@DEMO_LIB.RESETKEY(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i31@demo_lib.resetkey(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i31@demo_lib.resetkey(chips)',
+ PATH='I31',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='16100018',
+ PHYS_PAGE='1',
+ XY='(-3300,3200)',
+ ROT='1',
+ VER='1',
+ VALUE='RESETKEY-DIP',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='RESETKEY-16100018,RESETKEY-DIP',
+ PRIM_FILE='./worklib/resetkey/chips/chips.prt';
+
+PART_NAME
+ U1 'C-30PF':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I25@DEMO_LIB.C(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i25@demo_lib.c(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i25@demo_lib.c(chips)',
+ PATH='I25',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-4300,3550)',
+ ROT='1',
+ VER='1',
+ VALUE='30PF',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='C-30PF',
+ PRIM_FILE='./worklib/c/chips/chips.prt';
+
+PART_NAME
+ U2 'C-30PF':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I26@DEMO_LIB.C(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i26@demo_lib.c(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i26@demo_lib.c(chips)',
+ PATH='I26',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-4300,3000)',
+ ROT='1',
+ VER='1',
+ VALUE='30PF',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='C-30PF',
+ PRIM_FILE='./worklib/c/chips/chips.prt';
+
+PART_NAME
+ U3 'RESISTOR-0006,300':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I23@DEMO_LIB.RESISTOR(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i23@demo_lib.resistor(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i23@demo_lib.resistor(chips)',
+ PATH='I23',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0006',
+ PHYS_PAGE='1',
+ XY='(-4200,2100)',
+ ROT='0',
+ VER='1',
+ VALUE='300',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='RESISTOR-0006,300',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ U4 'RESISTOR-0001,1K':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I15@DEMO_LIB.RESISTOR(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i15@demo_lib.resistor(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i15@demo_lib.resistor(chips)',
+ PATH='I15',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-4200,1900)',
+ ROT='0',
+ VER='1',
+ VALUE='1K',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='RESISTOR-0001,1K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ U5 '1N4377-0001,1N4377':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I13@DEMO_LIB.1N4377(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i13@demo_lib.\1n4377\(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i13@demo_lib.\1n4377\(chips)',
+ PATH='I13',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-3850,2400)',
+ ROT='0',
+ VER='1',
+ VALUE='1N4377',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='1N4377-0001,1N4377',
+ PRIM_FILE='./worklib/1n4377/chips/chips.prt';
+
+PART_NAME
+ U6 'LED-0003,LED':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I18@DEMO_LIB.LED(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i18@demo_lib.led(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i18@demo_lib.led(chips)',
+ PATH='I18',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0003',
+ PHYS_PAGE='1',
+ XY='(-3750,2100)',
+ ROT='0',
+ VER='1',
+ VALUE='LED',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='LED-0003,LED',
+ PRIM_FILE='./worklib/led/chips/chips.prt';
+
+PART_NAME
+ U7 'LED-0001,LED':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I17@DEMO_LIB.LED(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i17@demo_lib.led(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i17@demo_lib.led(chips)',
+ PATH='I17',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-3750,1900)',
+ ROT='0',
+ VER='1',
+ VALUE='LED',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='LED-0001,LED',
+ PRIM_FILE='./worklib/led/chips/chips.prt';
+
+PART_NAME
+ U8 'SWITCH-0001,SWITCH':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I24@DEMO_LIB.SWITCH(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i24@demo_lib.switch(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i24@demo_lib.switch(chips)',
+ PATH='I24',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-3100,2000)',
+ ROT='0',
+ VER='1',
+ VALUE='SWITCH',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='SWITCH-0001,SWITCH',
+ PRIM_FILE='./worklib/switch/chips/chips.prt';
+
+PART_NAME
+ U9 'RESISTOR-0006,300':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I30@DEMO_LIB.RESISTOR(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i30@demo_lib.resistor(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i30@demo_lib.resistor(chips)',
+ PATH='I30',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0006',
+ PHYS_PAGE='1',
+ XY='(-2950,3150)',
+ ROT='0',
+ VER='1',
+ VALUE='300',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='RESISTOR-0006,300',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ U10 'RESISTOR-0001,1K':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I29@DEMO_LIB.RESISTOR(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i29@demo_lib.resistor(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i29@demo_lib.resistor(chips)',
+ PATH='I29',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-2550,2850)',
+ ROT='1',
+ VER='1',
+ VALUE='1K',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='RESISTOR-0001,1K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ U11 'C-0.33UF':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I20@DEMO_LIB.C(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i20@demo_lib.c(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i20@demo_lib.c(chips)',
+ PATH='I20',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-2550,2250)',
+ ROT='0',
+ VER='1',
+ VALUE='0.33UF',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='C-0.33UF',
+ PRIM_FILE='./worklib/c/chips/chips.prt';
+
+PART_NAME
+ U12 'C-0.1UF':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I21@DEMO_LIB.C(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i21@demo_lib.c(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i21@demo_lib.c(chips)',
+ PATH='I21',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-2550,1750)',
+ ROT='0',
+ VER='1',
+ VALUE='0.1UF',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='C-0.1UF',
+ PRIM_FILE='./worklib/c/chips/chips.prt';
+
+PART_NAME
+ U13 'LM7805-0001,LM7805':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I22@DEMO_LIB.LM7805(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i22@demo_lib.lm7805(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i22@demo_lib.lm7805(chips)',
+ PATH='I22',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-2150,2000)',
+ ROT='0',
+ VER='1',
+ VALUE='LM7805',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='LM7805-0001,LM7805',
+ PRIM_FILE='./worklib/lm7805/chips/chips.prt';
+
+PART_NAME
+ U14 '89C52-0001,STC89C52':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I1@DEMO_LIB.89C52(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i1@demo_lib.\89c52\(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i1@demo_lib.\89c52\(chips)',
+ PATH='I1',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-900,3950)',
+ ROT='0',
+ VER='1',
+ VALUE='STC89C52',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='89C52-0001,STC89C52',
+ PRIM_FILE='./worklib/89c52/chips/chips.prt';
+
+PART_NAME
+ U15 'OLED-0001,OLED':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I42@DEMO_LIB.OLED(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i42@demo_lib.oled(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i42@demo_lib.oled(chips)',
+ PATH='I42',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-450,2850)',
+ ROT='7',
+ VER='1',
+ VALUE='OLED',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='OLED-0001,OLED',
+ PRIM_FILE='./worklib/oled/chips/chips.prt';
+
+PART_NAME
+ U16 'ADXL345-0001,ADXL345':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I43@DEMO_LIB.ADXL345(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i43@demo_lib.adxl345(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i43@demo_lib.adxl345(chips)',
+ PATH='I43',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0001',
+ PHYS_PAGE='1',
+ XY='(-450,2000)',
+ ROT='0',
+ VER='1',
+ VALUE='ADXL345',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='ADXL345-0001,ADXL345',
+ PRIM_FILE='./worklib/adxl345/chips/chips.prt';
+
+PART_NAME
+ U17 'RESISTOR-0002,4.7K':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I44@DEMO_LIB.RESISTOR(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i44@demo_lib.resistor(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i44@demo_lib.resistor(chips)',
+ PATH='I44',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0002',
+ PHYS_PAGE='1',
+ XY='(-100,4450)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7K',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='RESISTOR-0002,4.7K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ U18 'DIP16-DIP16':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I45@DEMO_LIB.DIP16(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i45@demo_lib.dip16(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i45@demo_lib.dip16(chips)',
+ PATH='I45',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(1500,3750)',
+ ROT='0',
+ VER='1',
+ VALUE='DIP16',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='DIP16-DIP16',
+ PRIM_FILE='./worklib/dip16/chips/chips.prt';
+
+PART_NAME
+ X1 'CRYSTAL-0002,11.0592MHZ':;
+
+SECTION_NUMBER 1
+ '@DEMO_LIB.DEMO(SCH_1):PAGE1_I27@DEMO_LIB.CRYSTAL(CHIPS)':
+ C_PATH='@demo_lib.demo(sch_1):page1_i27@demo_lib.crystal(chips)',
+ P_PATH='@demo_lib.demo(sch_1):page1_i27@demo_lib.crystal(chips)',
+ PATH='I27',
+ DRAWING='@DEMO_LIB.DEMO(SCH_1):PAGE1',
+ CODE='0002',
+ PHYS_PAGE='1',
+ XY='(-3950,3100)',
+ ROT='1',
+ VER='1',
+ VALUE='11.0592MHZ',
+ CDS_LIB='demo_lib',
+ CDS_PART_NAME='CRYSTAL-0002,11.0592MHZ',
+ PRIM_FILE='./worklib/crystal/chips/chips.prt';
+
+END.

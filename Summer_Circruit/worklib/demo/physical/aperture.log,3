@@ -1,0 +1,47 @@
+Tue Jul 11 11:19:22 2023				Page     1
+
+Photoplot log file
+Results from aperture table.
+
+
+INPUT-UNITS     INCHES
+
+WHEEL     1
+
+LINE               4            D40
+LINE               5            D45
+LINE               6            D41
+LINE               8            D42
+LINE              10            D39
+LINE              25            D43
+LINE              40            D44
+LINE              55            D31
+LINE              65            D34
+LINE              95            D28
+CIRCLE            16            D38
+CIRCLE            24            D12
+CIRCLE            30            D10
+CIRCLE            32            D37
+CIRCLE            44            D13
+CIRCLE            70            D15
+CIRCLE            80            D16
+CIRCLE            88            D14
+CIRCLE            90            D21
+CIRCLE            98            D20
+SQUARE            70   0.00000            D18
+SQUARE            80   0.00000            D19
+SQUARE            88   0.00000            D17
+RECTANGLE         55        70   0.00000  D24
+RECTANGLE         65        80   0.00000  D26
+RECTANGLE         70        55   0.00000  D25
+RECTANGLE         80        65   0.00000  D27
+RECTANGLE         95       110   0.00000  D22
+RECTANGLE        110        95   0.00000  D23
+OBLONG            55        70   0.00000  D32
+OBLONG            65        80   0.00000  D35
+OBLONG            70        55   0.00000  D33
+OBLONG            80        65   0.00000  D36
+OBLONG            95       110   0.00000  D29
+OBLONG           110        95   0.00000  D30
+FLASH     AB00                 0.00000  D11
+

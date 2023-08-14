@@ -1,0 +1,9 @@
+part_number,resistor,,,,
+class,DISCRETE,,,,
+PHYS_DES_PRE,R,,,,
+vendor,*,,,,
+body_name,resistor,,,,
+jedec_type,resistor,,,,
+PIN_NUMBER,PIN_NAME,PIN_TYPE,SYMBOL,PIN_LOCATION,PIN_POSITION
+1,1,UNSPEC,1,Left,0
+2,2,UNSPEC,1,Right,0

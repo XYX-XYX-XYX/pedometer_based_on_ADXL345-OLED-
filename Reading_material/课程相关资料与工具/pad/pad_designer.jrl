@@ -1,0 +1,20 @@
+\t (00:06:49) pad_designer 16.6 P001 (v16-6-112A) Windows 32
+\t (00:06:49)     Journal start - Thu Jun 29 10:57:30 2023
+\t (00:06:49)         Host=DESKTOP-LJD96P3 User=LCY Pid=14952 CPUs=4
+\t (00:06:49) 
+\i (00:06:51) FORM padedit layers  
+\i (00:06:57) FORM padedit parameters  
+\i (00:07:04) FORM padedit hole_size_x 25 
+\i (00:07:10) FORM padedit hole_size_x 60 
+\i (00:07:14) FORM padedit hole_size_x 25 
+\i (00:07:23) pse_save_as 
+\i (00:07:31) fillin "pad70cir25d.pad"
+\i (00:07:40) pse_open 
+\i (00:07:50) fillin "pad70sq32d.pad"
+\i (00:07:57) FORM padedit hole_size_x 25 
+\i (00:08:01) FORM padedit layers  
+\i (00:08:05) FORM padedit parameters  
+\i (00:08:07) pse_save_as 
+\i (00:08:16) fillin "pad70sq25d.pad"
+\i (00:08:18) pse_exit
+\t (00:08:18)     Journal end - Thu Jun 29 10:58:59 2023

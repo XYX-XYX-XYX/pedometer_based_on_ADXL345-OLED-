@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : board.brd                                     )
+(    Software Version : 16.6-2015S115                                 )
+(    Date/Time        : Mon Jul 10 17:00:22 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  Not a Net            BOTTOM                     1     *(-1124 -495) to *(-1125 -494)
+  Not a Net            TOP                        1     *(552 -252) to *(553 -253)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  GND                  VIA                  (-1540 -1155)    TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  GND                  VIA                  (-1540 -1155)    TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       2
+  Total dangling vias:        1
+  Total antenna vias:         1

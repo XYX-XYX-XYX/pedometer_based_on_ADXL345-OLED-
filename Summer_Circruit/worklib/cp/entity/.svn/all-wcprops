@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/product1/!svn/ver/410/cadencelib/sym/capcitor/cp/entity
+END
+master.tag
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/product1/!svn/ver/410/cadencelib/sym/capcitor/cp/entity/master.tag
+END
+pc.db
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/product1/!svn/ver/410/cadencelib/sym/capcitor/cp/entity/pc.db
+END
+verilog.v
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/product1/!svn/ver/410/cadencelib/sym/capcitor/cp/entity/verilog.v
+END
+vlog004u.sir
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/product1/!svn/ver/410/cadencelib/sym/capcitor/cp/entity/vlog004u.sir
+END
+vhdl.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/product1/!svn/ver/410/cadencelib/sym/capcitor/cp/entity/vhdl.vhd
+END

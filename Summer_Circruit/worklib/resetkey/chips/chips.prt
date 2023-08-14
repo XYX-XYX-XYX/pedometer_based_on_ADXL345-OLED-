@@ -1,0 +1,26 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'RESETKEY';
+  pin
+    'A2':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'A1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'B2':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'B1':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='RESETKEY';
+    BODY_NAME='RESETKEY';
+    PHYS_DES_PREFIX='S';
+    CLASS='IO';
+    CDS_LMAN_UNMAPPED_PHYS_PIN='(7)';
+  end_body;
+end_primitive;
+
+END.

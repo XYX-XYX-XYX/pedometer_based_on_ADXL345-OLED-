@@ -1,0 +1,130 @@
+Allegro Design Entry HDL 16.6-S115 (v16-6-112JX) 1/23/2019
+Copyright 2011 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2065): The PLOT_DPI directive defines the Dots Per Inch setting used by the printer for printing. Ensure that you specify a positive integer value for the directive.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading D:\Cadence\Summer_Circruit\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading DEMO.SCH.1.1 into drawing #1.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'D:\Cadence\SPB_16.6\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading DEMO.SCH.1.1 into drawing #1.
+zoom 
+; 
+zoom fit; 
+zoom 
+; 
+INFO(SPCOCN-999): Signal: RST selected.
+INFO(SPCOCN-999): Signal: VCC selected.
+INFO(SPCOCN-1001): Component: I30 selected.
+zoom fit; 
+zoom 
+; 
+zoom fit; 
+zoom 
+; 
+zoom 
+; 
+INFO(SPCOCN-999): Signal: P1.4 selected.
+INFO(SPCOCN-999): Signal: P1.3 selected.
+INFO(SPCOCN-1001): Component: I15 selected.
+INFO(SPCOCN-999): Signal: VIN selected.
+INFO(SPCOCN-999): Signal: VIN selected.
+INFO(SPCOCN-1001): Component: I15 selected.
+INFO(SPCOCN-1001): Component: I17 selected.
+INFO(SPCOCN-1001): Component: I30 selected.
+select 
+WARNING(SPCOCN-1200): Using group A
+INFO(SPCOCN-1195): Group "A" contains:   0 bodies   3 properties   0 notes   0 wires   0 dots   0 images
+; 
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <demo_lib>DEMO.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.6-S115 (v16-6-112JX)
+
+Netlisting block demo
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <demo_lib>DEMO.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.6-S115 (v16-6-112JX)
+
+Netlisting block demo
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading DEMO.SCH.1.1 into drawing #1.
+WARNING(SPCOCN-1288): Could not find component with path I30 to highlight.
+WARNING(SPCOCN-1288): Could not find component with path I30 to highlight.
+WARNING(SPCOCN-1288): Could not find component with path I30 to highlight.
+WARNING(SPCOCN-1288): Could not find component with path I30 to highlight.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <demo_lib>DEMO.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.6-S115 (v16-6-112JX)
+
+Netlisting block demo
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <demo_lib>DEMO.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 16.6-S115 (v16-6-112JX)
+
+Netlisting block demo
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written

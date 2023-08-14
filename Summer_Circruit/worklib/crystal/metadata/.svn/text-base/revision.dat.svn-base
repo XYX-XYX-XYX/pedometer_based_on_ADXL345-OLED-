@@ -1,0 +1,160 @@
+(Cell	crystal
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	06/19/05,20:50:47)
+
+			(User	Laguna)
+
+			(Path	oscillator.crystal)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008d286f99)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/19/05,20:50:47)
+
+							(User	Laguna)
+
+							(Path	oscillator.crystal)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c450395)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000067a65202)
+
+			(Primitives	1
+
+				(Primitive	CRYSTAL
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/19/05,20:50:47)
+
+							(User	Laguna)
+
+							(Path	oscillator.crystal)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CRYSTAL
+
+							(PackType	CRYSTAL)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c59038d)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b950382)
+
+)
+

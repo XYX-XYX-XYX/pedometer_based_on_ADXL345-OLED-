@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : resistor.dra                                  )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Thu Jul 06 10:12:49 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Cadence/Summer_Circruit/worklib/demo/physical
+    Name      = resistor.psm
+    User      = xu
+    Machine   = DESKTOP-JLNS6G0
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

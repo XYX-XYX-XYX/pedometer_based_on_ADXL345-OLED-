@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/entity
+END
+master.tag
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/entity/master.tag
+END
+pc.db
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/entity/pc.db
+END
+verilog.v
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/entity/verilog.v
+END
+vlog004u.sir
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/entity/vlog004u.sir
+END
+vhdl.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/product1/!svn/ver/410/cadencelib/sym/oscillator/crystal/entity/vhdl.vhd
+END

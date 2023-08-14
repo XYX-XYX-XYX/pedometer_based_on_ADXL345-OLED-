@@ -1,0 +1,95 @@
+(Cell	resetkey
+
+	(RevisionInfoBlock
+
+		(Baselined	0)
+
+		(Revision	1.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo
+
+			(Time	06/20/05,12:12:17)
+
+			(User	Laguna)
+
+			(Path	switch.resetkey)
+
+		)
+
+	)
+
+	(Views
+
+		(View Chips
+			(Primitives	1
+				(Primitive	RESETKEY
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	1.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	06/20/05,12:12:17)
+							(User	Laguna)
+							(Path	switch.resetkey)
+						)
+					)
+
+					(LogicalPhysicalPartRelation
+						(LogicalPart	RESETKEY
+							(PackType	RESETKEY)
+						)
+					)
+
+					(Packages	1
+						(FunctionGroups	1
+							(FunctionGroup	1[1]
+								(Linkages
+									(Linkage	Symbol
+										(Name	sym_1)
+									)
+								)
+							)
+						)
+						(Linkages
+						)
+					)
+				)
+			)
+		)
+
+		(View	Symbol
+			(Symbols	1
+				(Symbol	sym_1
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	1.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	06/20/05,12:12:17)
+							(User	Laguna)
+							(Path	switch.resetkey)
+						)
+					)
+				)
+			)
+		)
+
+
+
+
+
+
+	)
+
+)
+

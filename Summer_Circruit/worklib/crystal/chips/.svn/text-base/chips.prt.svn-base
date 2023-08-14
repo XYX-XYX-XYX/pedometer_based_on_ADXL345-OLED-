@@ -1,0 +1,19 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'CRYSTAL';
+  pin
+    'A1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'A2':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    PART_NAME='CRYSTAL';
+    BODY_NAME='CRYSTAL';
+    PHYS_DES_PREFIX='X';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

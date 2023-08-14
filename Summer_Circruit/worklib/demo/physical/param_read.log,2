@@ -1,0 +1,68 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : board.brd                                     )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Tue Jul 11 11:15:28 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : D:/Cadence/Summer_Circruit/artwork_film.prm
+	Layout Name   : D:/Cadence/Summer_Circruit/worklib/demo/physical/board.brd
+
+Reading...parameter_header:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 0.

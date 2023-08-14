@@ -1,0 +1,604 @@
+; Packager-XL run on 10-Jul-2023 AT 10:25:35 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "demo"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 31 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CODE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "demo"
+				( objectFlag fObjectReadOnly )
+				( objectStatus "demo" )
+			)
+			( signal "ALE"
+				( objectStatus "@demo_lib.demo(sch_1):ale" )
+			)
+			( signal "EA"
+				( objectStatus "@demo_lib.demo(sch_1):ea" )
+			)
+			( signal "GND"
+				( objectStatus "@demo_lib.demo(sch_1):gnd" )
+			)
+			( signal "P0.0"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.0\" )
+			)
+			( signal "P0.1"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.1\" )
+			)
+			( signal "P0.2"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.2\" )
+			)
+			( signal "P0.3"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.3\" )
+			)
+			( signal "P0.4"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.4\" )
+			)
+			( signal "P0.5"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.5\" )
+			)
+			( signal "P0.6"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.6\" )
+			)
+			( signal "P0.7"
+				( objectStatus "@demo_lib.demo(sch_1):\p0.7\" )
+			)
+			( signal "P1.0"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.0\" )
+			)
+			( signal "P1.1"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.1\" )
+			)
+			( signal "P1.2"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.2\" )
+			)
+			( signal "P1.3"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.3\" )
+			)
+			( signal "P1.4"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.4\" )
+			)
+			( signal "P1.5"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.5\" )
+			)
+			( signal "P1.6"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.6\" )
+			)
+			( signal "P1.7"
+				( objectStatus "@demo_lib.demo(sch_1):\p1.7\" )
+			)
+			( signal "P2.0"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.0\" )
+			)
+			( signal "P2.1"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.1\" )
+			)
+			( signal "P2.2"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.2\" )
+			)
+			( signal "P2.3"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.3\" )
+			)
+			( signal "P2.4"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.4\" )
+			)
+			( signal "P2.5"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.5\" )
+			)
+			( signal "P2.6"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.6\" )
+			)
+			( signal "P2.7"
+				( objectStatus "@demo_lib.demo(sch_1):\p2.7\" )
+			)
+			( signal "P3.0"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.0\" )
+			)
+			( signal "P3.1"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.1\" )
+			)
+			( signal "P3.2"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.2\" )
+			)
+			( signal "P3.3"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.3\" )
+			)
+			( signal "P3.4"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.4\" )
+			)
+			( signal "P3.5"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.5\" )
+			)
+			( signal "P3.6"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.6\" )
+			)
+			( signal "P3.7"
+				( objectStatus "@demo_lib.demo(sch_1):\p3.7\" )
+			)
+			( signal "PSEN"
+				( objectStatus "@demo_lib.demo(sch_1):psen" )
+			)
+			( signal "RST"
+				( objectStatus "@demo_lib.demo(sch_1):rst" )
+			)
+			( signal "VCC"
+				( objectStatus "@demo_lib.demo(sch_1):vcc" )
+			)
+			( signal "XTAL1"
+				( objectStatus "@demo_lib.demo(sch_1):xtal1" )
+			)
+			( signal "XTAL2"
+				( objectStatus "@demo_lib.demo(sch_1):xtal2" )
+			)
+			( signal "VIN"
+				( objectStatus "@demo_lib.demo(sch_1):vin" )
+			)
+			( signal "UNNAMED_1_1N4377_I13_1"
+				( objectStatus "@demo_lib.demo(sch_1):unnamed_1_1n4377_i13_1" )
+			)
+			( signal "UNNAMED_1_LED_I18_1"
+				( objectStatus "@demo_lib.demo(sch_1):unnamed_1_led_i18_1" )
+			)
+			( signal "UNNAMED_1_C_I20_1"
+				( objectStatus "@demo_lib.demo(sch_1):unnamed_1_c_i20_1" )
+			)
+			( gate "U14"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i1" )
+				( pin "U14.30"
+					( objectStatus "\ale/prog*\" )
+				)
+				( pin "U14.31"
+					( objectStatus "\ea*\" )
+				)
+				( pin "U14.20"
+					( objectStatus "gnd" )
+				)
+				( pin "U14.39"
+					( objectStatus "\p0.0/ad0\" )
+				)
+				( pin "U14.38"
+					( objectStatus "\p0.1/ad1\" )
+				)
+				( pin "U14.37"
+					( objectStatus "\p0.2/ad2\" )
+				)
+				( pin "U14.36"
+					( objectStatus "\p0.3/ad3\" )
+				)
+				( pin "U14.35"
+					( objectStatus "\p0.4/ad4\" )
+				)
+				( pin "U14.34"
+					( objectStatus "\p0.5/ad5\" )
+				)
+				( pin "U14.33"
+					( objectStatus "\p0.6/ad6\" )
+				)
+				( pin "U14.32"
+					( objectStatus "\p0.7/ad7\" )
+				)
+				( pin "U14.1"
+					( objectStatus "\p1.0/t2\" )
+				)
+				( pin "U14.2"
+					( objectStatus "\p1.1/t2ex\" )
+				)
+				( pin "U14.3"
+					( objectStatus "\p1.2\" )
+				)
+				( pin "U14.4"
+					( objectStatus "\p1.3\" )
+				)
+				( pin "U14.5"
+					( objectStatus "\p1.4\" )
+				)
+				( pin "U14.6"
+					( objectStatus "\p1.5\" )
+				)
+				( pin "U14.7"
+					( objectStatus "\p1.6\" )
+				)
+				( pin "U14.8"
+					( objectStatus "\p1.7\" )
+				)
+				( pin "U14.21"
+					( objectStatus "\p2.0/a8\" )
+				)
+				( pin "U14.22"
+					( objectStatus "\p2.1/a9\" )
+				)
+				( pin "U14.23"
+					( objectStatus "\p2.2/a10\" )
+				)
+				( pin "U14.24"
+					( objectStatus "\p2.3/a11\" )
+				)
+				( pin "U14.25"
+					( objectStatus "\p2.4/a12\" )
+				)
+				( pin "U14.26"
+					( objectStatus "\p2.5/a13\" )
+				)
+				( pin "U14.27"
+					( objectStatus "\p2.6/a14\" )
+				)
+				( pin "U14.28"
+					( objectStatus "\p2.7/a15\" )
+				)
+				( pin "U14.10"
+					( objectStatus "\p3.0/rxd\" )
+				)
+				( pin "U14.11"
+					( objectStatus "\p3.1/txd\" )
+				)
+				( pin "U14.12"
+					( objectStatus "\p3.2/int0*\" )
+				)
+				( pin "U14.13"
+					( objectStatus "\p3.3/int1*\" )
+				)
+				( pin "U14.14"
+					( objectStatus "\p3.4/t0\" )
+				)
+				( pin "U14.15"
+					( objectStatus "\p3.5/t1\" )
+				)
+				( pin "U14.16"
+					( objectStatus "\p3.6/wr*\" )
+				)
+				( pin "U14.17"
+					( objectStatus "\p3.7/rd*\" )
+				)
+				( pin "U14.29"
+					( objectStatus "\psen*\" )
+				)
+				( pin "U14.9"
+					( objectStatus "rst" )
+				)
+				( pin "U14.40"
+					( objectStatus "vcc" )
+				)
+				( pin "U14.19"
+					( objectStatus "xtal1" )
+				)
+				( pin "U14.18"
+					( objectStatus "xtal2" )
+				)
+			)
+			( gate "U3"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i23" )
+				( pin "U3.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U3.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U13"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i22" )
+				( pin "U13.2"
+					( objectStatus "gnd" )
+				)
+				( pin "U13.1"
+					( objectStatus "input" )
+				)
+				( pin "U13.3"
+					( objectStatus "output" )
+				)
+			)
+			( gate "U12"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i21" )
+				( pin "U12.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U12.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U11"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i20" )
+				( pin "U11.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U11.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U8"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i24" )
+				( pin "U8.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U8.2"
+					( objectStatus "\2\" )
+				)
+				( pin "U8.3"
+					( objectStatus "\3\" )
+				)
+				( pin "U8.4"
+					( objectStatus "\4\" )
+				)
+				( pin "U8.5"
+					( objectStatus "\5\" )
+				)
+				( pin "U8.6"
+					( objectStatus "\6\" )
+				)
+			)
+			( gate "U6"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i18" )
+				( pin "U6.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U6.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "J2"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i14" )
+				( pin "J2.1"
+					( objectStatus "\1\" )
+				)
+				( pin "J2.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U5"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i13" )
+				( pin "U5.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U5.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U1"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i25" )
+				( pin "U1.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U1.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U2"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i26" )
+				( pin "U2.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U2.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "X1"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i27" )
+				( pin "X1.1"
+					( objectStatus "a1" )
+				)
+				( pin "X1.2"
+					( objectStatus "a2" )
+				)
+			)
+			( gate "CP1"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i28" )
+				( pin "CP1.1"
+					( objectStatus "\1\" )
+				)
+				( pin "CP1.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U10"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i29" )
+				( pin "U10.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U10.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "S1"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i31" )
+				( pin "S1.1"
+					( objectStatus "a1" )
+				)
+				( pin "S1.2"
+					( objectStatus "a2" )
+				)
+				( pin "S1.3"
+					( objectStatus "b1" )
+				)
+				( pin "S1.4"
+					( objectStatus "b2" )
+				)
+			)
+			( gate "J1"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i41" )
+				( pin "J1.1"
+					( objectStatus "\5v\" )
+				)
+				( pin "J1.4"
+					( objectStatus "gnd" )
+				)
+				( pin "J1.2"
+					( objectStatus "rxd" )
+				)
+				( pin "J1.3"
+					( objectStatus "txd" )
+				)
+			)
+			( gate "U15"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i42" )
+				( pin "U15.7"
+					( objectStatus "cs" )
+				)
+				( pin "U15.6"
+					( objectStatus "dc" )
+				)
+				( pin "U15.1"
+					( objectStatus "gnd" )
+				)
+				( pin "U15.5"
+					( objectStatus "res" )
+				)
+				( pin "U15.3"
+					( objectStatus "scx" )
+				)
+				( pin "U15.4"
+					( objectStatus "sda" )
+				)
+				( pin "U15.2"
+					( objectStatus "vdd" )
+				)
+			)
+			( gate "U16"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i43" )
+				( pin "U16.9"
+					( objectStatus "\3v3\" )
+				)
+				( pin "U16.10"
+					( objectStatus "\5v\" )
+				)
+				( pin "U16.6"
+					( objectStatus "cs" )
+				)
+				( pin "U16.8"
+					( objectStatus "gnd" )
+				)
+				( pin "U16.5"
+					( objectStatus "in1" )
+				)
+				( pin "U16.4"
+					( objectStatus "in2" )
+				)
+				( pin "U16.1"
+					( objectStatus "scl" )
+				)
+				( pin "U16.2"
+					( objectStatus "sda" )
+				)
+				( pin "U16.3"
+					( objectStatus "sdo" )
+				)
+				( pin "U16.7"
+					( objectStatus "vs" )
+				)
+			)
+			( gate "U17"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i44" )
+				( pin "U17.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U17.2"
+					( objectStatus "\2\" )
+				)
+			)
+			( gate "U18"
+				( objectStatus "@demo_lib.demo(sch_1):page1_i45" )
+				( pin "U18.1"
+					( objectStatus "\1\" )
+				)
+				( pin "U18.2"
+					( objectStatus "\2\" )
+				)
+				( pin "U18.3"
+					( objectStatus "\3\" )
+				)
+				( pin "U18.4"
+					( objectStatus "\4\" )
+				)
+				( pin "U18.5"
+					( objectStatus "\5\" )
+				)
+				( pin "U18.6"
+					( objectStatus "\6\" )
+				)
+				( pin "U18.7"
+					( objectStatus "\7\" )
+				)
+				( pin "U18.8"
+					( objectStatus "\8\" )
+				)
+				( pin "U18.9"
+					( objectStatus "\9\" )
+				)
+				( pin "U18.10"
+					( objectStatus "\10\" )
+				)
+				( pin "U18.11"
+					( objectStatus "\11\" )
+				)
+				( pin "U18.12"
+					( objectStatus "\12\" )
+				)
+				( pin "U18.13"
+					( objectStatus "\13\" )
+				)
+				( pin "U18.14"
+					( objectStatus "\14\" )
+				)
+				( pin "U18.15"
+					( objectStatus "\15\" )
+				)
+				( pin "U18.16"
+					( objectStatus "\16\" )
+				)
+			)
+		)
+	)
+)

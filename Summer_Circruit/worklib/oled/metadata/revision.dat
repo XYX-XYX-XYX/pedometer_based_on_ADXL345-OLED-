@@ -1,0 +1,204 @@
+(Cell	oled
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/06/23,17:05:27)
+
+			(User	xu)
+
+			(Path	demo_lib.oled)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/06/23,17:11:54)
+
+			(User	xu)
+
+			(Path	demo_lib.oled)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/06/23,17:05:27)
+
+					(User	xu)
+
+					(Path	demo_lib.oled)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000091ffcf0c)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,17:05:27)
+
+							(User	xu)
+
+							(Path	demo_lib.oled)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001dd20413)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000408788dc)
+
+			(Primitives	1
+
+				(Primitive	OLED
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,17:05:27)
+
+							(User	xu)
+
+							(Path	demo_lib.oled)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OLED
+
+							(PackType	OLED)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	OLED)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ccf03ef)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001de6040c)
+
+)
+

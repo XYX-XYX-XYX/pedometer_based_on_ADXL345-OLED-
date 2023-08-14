@@ -1,0 +1,96 @@
+\t (00:00:02) allegro 16.6-2015 S115 (v16-6-112JF) Windows 32
+\t (00:00:02)     Journal start - Tue Jul 18 11:05:10 2023
+\t (00:00:02)         Host=DESKTOP-JLNS6G0 User=xu Pid=9716 CPUs=4
+\t (00:00:02) CmdLine= allegro -proj D:\Cadence\Summer_Circruit\demo.cpm -product PCB_librarian_expert -mpssession xu_ProjectMgr11563 -mpshost DESKTOP-JLNS6G0
+\t (00:00:02) 
+\t (00:00:04) Opening existing design...
+\d (00:00:05) Design opened: D:/Cadence/Summer_Circruit/worklib/demo/physical/board.brd
+\t (00:00:07) Grids are drawn 16, 16 apart for enhanced viewability.
+\i (00:00:07) trapsize 15
+\i (00:00:07) trapsize 14
+\i (00:00:07) trapsize 15
+\t (00:00:07) Grids are drawn 16, 16 apart for enhanced viewability.
+\i (00:00:07) trapsize 15
+\i (00:00:09) generaledit 
+\i (00:00:11) setwindow form.vf_vis
+\i (00:00:11) FORM vf_vis all_all_visible YES 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out -974 -105
+\t (00:00:12) Grids are drawn 32, 32 apart for enhanced viewability.
+\i (00:00:12) trapsize 31
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out -88 -105
+\t (00:00:12) Grids are drawn 64, 64 apart for enhanced viewability.
+\i (00:00:12) trapsize 61
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 338 -31
+\i (00:00:13) trapsize 61
+\i (00:00:13) roam start
+\i (00:00:13) roam end
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -407 -324
+\t (00:00:14) Grids are drawn 32, 32 apart for enhanced viewability.
+\i (00:00:14) trapsize 31
+\i (00:00:15) roam start
+\i (00:00:15) roam x -240
+\i (00:00:15) roam y 80
+\i (00:00:15) roam x -16
+\i (00:00:15) roam y 16
+\i (00:00:15) roam end
+\i (00:00:16) roam start
+\i (00:00:16) roam x 80
+\i (00:00:16) roam y -80
+\i (00:00:16) roam x 16
+\i (00:00:16) roam y -32
+\i (00:00:16) roam y -64
+\i (00:00:16) roam x 16
+\i (00:00:17) roam x -16
+\i (00:00:17) roam y -16
+\i (00:00:17) roam x -48
+\i (00:00:17) roam x -80
+\i (00:00:17) roam y -32
+\i (00:00:18) roam y -32
+\i (00:00:18) roam end
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in -1091 1308
+\t (00:00:19) Grids are drawn 16, 16 apart for enhanced viewability.
+\i (00:00:19) trapsize 15
+\i (00:00:20) roam start
+\i (00:00:20) roam x 64
+\i (00:00:20) roam y -144
+\i (00:00:20) roam y -96
+\i (00:00:20) roam end
+\i (00:00:21) roam start
+\i (00:00:21) roam x 16
+\i (00:00:21) roam y 176
+\i (00:00:21) roam x 16
+\i (00:00:21) roam y 48
+\i (00:00:21) roam x 32
+\i (00:00:21) roam y 96
+\i (00:00:22) roam x 32
+\i (00:00:22) roam y 64
+\i (00:00:22) roam end
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -338 671
+\t (00:00:22) Grids are drawn 32, 32 apart for enhanced viewability.
+\i (00:00:22) trapsize 31
+\i (00:00:24) roam start
+\i (00:00:24) roam x -32
+\i (00:00:24) roam y 176
+\i (00:00:24) roam y 48
+\i (00:00:25) roam end
+\i (00:00:26) roam start
+\i (00:00:26) roam x 32
+\i (00:00:26) roam y -112
+\i (00:00:27) roam x 16
+\i (00:00:27) roam y -32
+\i (00:00:27) roam end
+\i (00:25:12) exit 
+\t (00:25:14)     Journal end - Tue Jul 18 11:30:22 2023

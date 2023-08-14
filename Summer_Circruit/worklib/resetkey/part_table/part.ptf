@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RESETKEY'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)     = DESCRIPTION                   | JEDEC_TYPE     | CHECKLIST ;
+{========================================================================================}
+ '16100018'  | 'RESETKEY-DIP'(!) = '微动开关-SPSD12DC-50mA-直插' | 'SSW-PUSH-DIP' | ''       
+
+END_PART
+
+END.
+

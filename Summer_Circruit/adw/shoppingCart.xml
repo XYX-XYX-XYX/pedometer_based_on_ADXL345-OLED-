@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="89c52" library="demo_lib" partname="89C52" partno="" quantity="1" >
+		<property name="CODE"  value=""/>
+		<property name="VALUE"  value=""/>
+	</component>
+	<component cell="89c52" library="demo_lib" partname="89C52" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="89C52"/>
+	</component>
+	<component cell="89c52" library="demo_lib" partname="89C52" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="STC89C52"/>
+	</component>
+	<component cell="resistor" library="demo_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="1K"/>
+	</component>
+	<component cell="adxl345" library="demo_lib" partname="ADXL345" partno="" quantity="1" >
+		<property name="CODE"  value=""/>
+		<property name="VALUE"  value=""/>
+	</component>
+	<component cell="cp" library="demo_lib" partname="CP" partno="" quantity="1" >
+		<property name="CODE"  value="08010022"/>
+		<property name="VALUE"  value="10UF-100V"/>
+	</component>
+	<component cell="led" library="demo_lib" partname="LED" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="LED"/>
+	</component>
+	<component cell="switch" library="demo_lib" partname="SWITCH" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="SWITCH"/>
+	</component>
+	<component cell="adxl345" library="demo_lib" partname="ADXL345" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="ADXL345"/>
+	</component>
+	<component cell="oled" library="demo_lib" partname="OLED" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="OLED"/>
+	</component>
+	<component cell="1n4377" library="demo_lib" partname="1N4377" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="1N4377"/>
+	</component>
+	<component cell="dip2" library="demo_lib" partname="DIP2" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="DIP2"/>
+	</component>
+	<component cell="lm7805" library="demo_lib" partname="LM7805" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="LM7805"/>
+	</component>
+	<component cell="led" library="demo_lib" partname="LED" partno="" quantity="1" >
+		<property name="CODE"  value="0003"/>
+		<property name="VALUE"  value="LED"/>
+	</component>
+	<component cell="resistor" library="demo_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="0006"/>
+		<property name="VALUE"  value="300"/>
+	</component>
+	<component cell="c" library="demo_lib" partname="C" partno="" quantity="1" >
+		<property name="VALUE"  value="0.1uf"/>
+	</component>
+	<component cell="c" library="demo_lib" partname="C" partno="" quantity="1" >
+		<property name="VALUE"  value="0.33uf"/>
+	</component>
+	<component cell="c" library="demo_lib" partname="C" partno="" quantity="1" >
+		<property name="VALUE"  value="30PF"/>
+	</component>
+	<component cell="crystal" library="demo_lib" partname="CRYSTAL" partno="" quantity="1" >
+		<property name="CODE"  value="0002"/>
+		<property name="VALUE"  value="11.0592MHz"/>
+	</component>
+	<component cell="resetkey" library="demo_lib" partname="RESETKEY" partno="" quantity="1" >
+		<property name="CODE"  value="16100018"/>
+		<property name="VALUE"  value="RESETKEY-DIP"/>
+	</component>
+	<component cell="dip4" library="demo_lib" partname="DIP4" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="DIP4"/>
+	</component>
+	<component cell="resistor" library="demo_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="0002"/>
+		<property name="VALUE"  value="4.7K"/>
+	</component>
+	<component cell="dip4" library="demo_lib" partname="DIP4" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value=""/>
+	</component>
+	<component cell="dip4" library="demo_lib" partname="DIP4" partno="" quantity="1" >
+		<property name="CODE"  value="0001"/>
+		<property name="VALUE"  value="4"/>
+	</component>
+	<component cell="dip16" library="demo_lib" partname="DIP16" partno="" quantity="1" >
+		<property name="VALUE"  value="DIP16"/>
+	</component>
+</sc:shoppingCart>

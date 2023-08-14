@@ -1,0 +1,204 @@
+(Cell	resistor
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.11)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/05/23,17:11:50)
+
+			(User	xu)
+
+			(Path	demo_lib.resistor)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/05/23,17:22:55)
+
+			(User	xu)
+
+			(Path	demo_lib.resistor)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/05/23,17:11:50)
+
+					(User	xu)
+
+					(Path	demo_lib.resistor)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000045fe5ea8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/05/23,17:11:50)
+
+							(User	xu)
+
+							(Path	demo_lib.resistor)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d3d03e8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000344faab8)
+
+			(Primitives	1
+
+				(Primitive	RESISTOR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/05/23,17:11:50)
+
+							(User	xu)
+
+							(Path	demo_lib.resistor)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RESISTOR
+
+							(PackType	RESISTOR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	resistor)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cb303d9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cb203aa)
+
+)
+

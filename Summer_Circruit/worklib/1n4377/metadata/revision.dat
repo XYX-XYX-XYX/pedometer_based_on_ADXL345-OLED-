@@ -1,0 +1,204 @@
+(Cell	1n4377
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/06/23,20:26:20)
+
+			(User	xu)
+
+			(Path	demo_lib.1n4377)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/06/23,20:30:31)
+
+			(User	xu)
+
+			(Path	demo_lib.1n4377)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/06/23,20:26:20)
+
+					(User	xu)
+
+					(Path	demo_lib.1n4377)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000284d5800)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,20:26:20)
+
+							(User	xu)
+
+							(Path	demo_lib.1n4377)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b200350)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006a79a372)
+
+			(Primitives	1
+
+				(Primitive	1N4377
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/06/23,20:26:20)
+
+							(User	xu)
+
+							(Path	demo_lib.1n4377)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	1N4377
+
+							(PackType	1N4377)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	LED)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b94038c)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b8c037f)
+
+)
+
